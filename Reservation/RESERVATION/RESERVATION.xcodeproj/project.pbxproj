@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6551353A1A8021893E7C49 /* Pods_RESERVATION.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4FE8185022B440B1CD21A7 /* Pods_RESERVATION.framework */; };
+		AB1A525C1F481BC600DD483A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A525B1F481BC600DD483A /* AppDelegate.swift */; };
+		AB1A525E1F481BC600DD483A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A525D1F481BC600DD483A /* ViewController.swift */; };
+		AB1A52611F481BC600DD483A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1A525F1F481BC600DD483A /* Main.storyboard */; };
+		AB1A52631F481BC600DD483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52621F481BC600DD483A /* Assets.xcassets */; };
+		AB1A52661F481BC600DD483A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52641F481BC600DD483A /* LaunchScreen.storyboard */; };
+		AB1A52711F481BC600DD483A /* RESERVATIONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A52701F481BC600DD483A /* RESERVATIONTests.swift */; };
+		AB1A527C1F481BC600DD483A /* RESERVATIONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A527B1F481BC600DD483A /* RESERVATIONUITests.swift */; };
+		AB8656E41F48A228008921EF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB8656E31F48A228008921EF /* Podfile */; };
+		ABE2ABA81F4CD22700DC0D22 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE2ABA71F4CD22700DC0D22 /* View.xib */; };
+		ABE2ABAA1F4CF69B00DC0D22 /* SpaServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2ABA91F4CF69A00DC0D22 /* SpaServiceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1A526D1F481BC600DD483A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1A52501F481BC600DD483A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1A52571F481BC600DD483A;
+			remoteInfo = RESERVATION;
+		};
+		AB1A52781F481BC600DD483A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1A52501F481BC600DD483A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1A52571F481BC600DD483A;
+			remoteInfo = RESERVATION;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C07EC953316C2A83C72F9B /* Pods-RESERVATION.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESERVATION.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION.debug.xcconfig"; sourceTree = "<group>"; };
+		70677F8BEF8A27F0A765E0E4 /* Pods-RESERVATION.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESERVATION.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION.release.xcconfig"; sourceTree = "<group>"; };
+		7D4FE8185022B440B1CD21A7 /* Pods_RESERVATION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESERVATION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A52581F481BC600DD483A /* RESERVATION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESERVATION.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A525B1F481BC600DD483A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1A525D1F481BC600DD483A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB1A52601F481BC600DD483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1A52621F481BC600DD483A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1A52651F481BC600DD483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1A52671F481BC600DD483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1A526C1F481BC600DD483A /* RESERVATIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESERVATIONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A52701F481BC600DD483A /* RESERVATIONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESERVATIONTests.swift; sourceTree = "<group>"; };
+		AB1A52721F481BC600DD483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1A52771F481BC600DD483A /* RESERVATIONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESERVATIONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A527B1F481BC600DD483A /* RESERVATIONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESERVATIONUITests.swift; sourceTree = "<group>"; };
+		AB1A527D1F481BC600DD483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8656E31F48A228008921EF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABE2ABA71F4CD22700DC0D22 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		ABE2ABA91F4CF69A00DC0D22 /* SpaServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaServiceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1A52551F481BC600DD483A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6551353A1A8021893E7C49 /* Pods_RESERVATION.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A52691F481BC600DD483A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A52741F481BC600DD483A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1A524F1F481BC500DD483A = {
+			isa = PBXGroup;
+			children = (
+				AB8656E31F48A228008921EF /* Podfile */,
+				AB1A525A1F481BC600DD483A /* RESERVATION */,
+				AB1A526F1F481BC600DD483A /* RESERVATIONTests */,
+				AB1A527A1F481BC600DD483A /* RESERVATIONUITests */,
+				AB1A52591F481BC600DD483A /* Products */,
+				E07E4FE5B37829620B6B86DA /* Pods */,
+				D1BD50D7C67A3FB61271B8A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1A52591F481BC600DD483A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A52581F481BC600DD483A /* RESERVATION.app */,
+				AB1A526C1F481BC600DD483A /* RESERVATIONTests.xctest */,
+				AB1A52771F481BC600DD483A /* RESERVATIONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1A525A1F481BC600DD483A /* RESERVATION */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A525B1F481BC600DD483A /* AppDelegate.swift */,
+				AB1A525D1F481BC600DD483A /* ViewController.swift */,
+				ABE2ABA91F4CF69A00DC0D22 /* SpaServiceViewController.swift */,
+				ABE2ABA71F4CD22700DC0D22 /* View.xib */,
+				AB1A525F1F481BC600DD483A /* Main.storyboard */,
+				AB1A52621F481BC600DD483A /* Assets.xcassets */,
+				AB1A52641F481BC600DD483A /* LaunchScreen.storyboard */,
+				AB1A52671F481BC600DD483A /* Info.plist */,
+			);
+			path = RESERVATION;
+			sourceTree = "<group>";
+		};
+		AB1A526F1F481BC600DD483A /* RESERVATIONTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A52701F481BC600DD483A /* RESERVATIONTests.swift */,
+				AB1A52721F481BC600DD483A /* Info.plist */,
+			);
+			path = RESERVATIONTests;
+			sourceTree = "<group>";
+		};
+		AB1A527A1F481BC600DD483A /* RESERVATIONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A527B1F481BC600DD483A /* RESERVATIONUITests.swift */,
+				AB1A527D1F481BC600DD483A /* Info.plist */,
+			);
+			path = RESERVATIONUITests;
+			sourceTree = "<group>";
+		};
+		D1BD50D7C67A3FB61271B8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4FE8185022B440B1CD21A7 /* Pods_RESERVATION.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07E4FE5B37829620B6B86DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C07EC953316C2A83C72F9B /* Pods-RESERVATION.debug.xcconfig */,
+				70677F8BEF8A27F0A765E0E4 /* Pods-RESERVATION.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1A52571F481BC600DD483A /* RESERVATION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1A52801F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATION" */;
+			buildPhases = (
+				600A8625050C3DE2F85BD149 /* [CP] Check Pods Manifest.lock */,
+				AB1A52541F481BC600DD483A /* Sources */,
+				AB1A52551F481BC600DD483A /* Frameworks */,
+				AB1A52561F481BC600DD483A /* Resources */,
+				14A81EEE5A8A6BF257E131F4 /* [CP] Embed Pods Frameworks */,
+				8DB553004A4A66F760D2938C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESERVATION;
+			productName = RESERVATION;
+			productReference = AB1A52581F481BC600DD483A /* RESERVATION.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1A526B1F481BC600DD483A /* RESERVATIONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1A52831F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATIONTests" */;
+			buildPhases = (
+				AB1A52681F481BC600DD483A /* Sources */,
+				AB1A52691F481BC600DD483A /* Frameworks */,
+				AB1A526A1F481BC600DD483A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1A526E1F481BC600DD483A /* PBXTargetDependency */,
+			);
+			name = RESERVATIONTests;
+			productName = RESERVATIONTests;
+			productReference = AB1A526C1F481BC600DD483A /* RESERVATIONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1A52761F481BC600DD483A /* RESERVATIONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1A52861F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATIONUITests" */;
+			buildPhases = (
+				AB1A52731F481BC600DD483A /* Sources */,
+				AB1A52741F481BC600DD483A /* Frameworks */,
+				AB1A52751F481BC600DD483A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1A52791F481BC600DD483A /* PBXTargetDependency */,
+			);
+			name = RESERVATIONUITests;
+			productName = RESERVATIONUITests;
+			productReference = AB1A52771F481BC600DD483A /* RESERVATIONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1A52501F481BC600DD483A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Maitri Mehta";
+				TargetAttributes = {
+					AB1A52571F481BC600DD483A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AB1A526B1F481BC600DD483A = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AB1A52571F481BC600DD483A;
+					};
+					AB1A52761F481BC600DD483A = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AB1A52571F481BC600DD483A;
+					};
+				};
+			};
+			buildConfigurationList = AB1A52531F481BC600DD483A /* Build configuration list for PBXProject "RESERVATION" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1A524F1F481BC500DD483A;
+			productRefGroup = AB1A52591F481BC600DD483A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1A52571F481BC600DD483A /* RESERVATION */,
+				AB1A526B1F481BC600DD483A /* RESERVATIONTests */,
+				AB1A52761F481BC600DD483A /* RESERVATIONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1A52561F481BC600DD483A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1A52661F481BC600DD483A /* LaunchScreen.storyboard in Resources */,
+				ABE2ABA81F4CD22700DC0D22 /* View.xib in Resources */,
+				AB1A52631F481BC600DD483A /* Assets.xcassets in Resources */,
+				AB8656E41F48A228008921EF /* Podfile in Resources */,
+				AB1A52611F481BC600DD483A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A526A1F481BC600DD483A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A52751F481BC600DD483A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A81EEE5A8A6BF257E131F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IoniconsSwift/IoniconsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ionicons/ionicons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IoniconsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ionicons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600A8625050C3DE2F85BD149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RESERVATION-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB553004A4A66F760D2938C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION-resources.sh",
+				"${PODS_ROOT}/ionicons/ionicons/ionicons.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESERVATION/Pods-RESERVATION-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1A52541F481BC600DD483A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE2ABAA1F4CF69B00DC0D22 /* SpaServiceViewController.swift in Sources */,
+				AB1A525E1F481BC600DD483A /* ViewController.swift in Sources */,
+				AB1A525C1F481BC600DD483A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A52681F481BC600DD483A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1A52711F481BC600DD483A /* RESERVATIONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1A52731F481BC600DD483A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1A527C1F481BC600DD483A /* RESERVATIONUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1A526E1F481BC600DD483A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1A52571F481BC600DD483A /* RESERVATION */;
+			targetProxy = AB1A526D1F481BC600DD483A /* PBXContainerItemProxy */;
+		};
+		AB1A52791F481BC600DD483A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1A52571F481BC600DD483A /* RESERVATION */;
+			targetProxy = AB1A52781F481BC600DD483A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1A525F1F481BC600DD483A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1A52601F481BC600DD483A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1A52641F481BC600DD483A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1A52651F481BC600DD483A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1A527E1F481BC600DD483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1A527F1F481BC600DD483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1A52811F481BC600DD483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C07EC953316C2A83C72F9B /* Pods-RESERVATION.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RESERVATION/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATION;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1A52821F481BC600DD483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70677F8BEF8A27F0A765E0E4 /* Pods-RESERVATION.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RESERVATION/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATION;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB1A52841F481BC600DD483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RESERVATIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATIONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESERVATION.app/RESERVATION";
+			};
+			name = Debug;
+		};
+		AB1A52851F481BC600DD483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RESERVATIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATIONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESERVATION.app/RESERVATION";
+			};
+			name = Release;
+		};
+		AB1A52871F481BC600DD483A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RESERVATIONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATIONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RESERVATION;
+			};
+			name = Debug;
+		};
+		AB1A52881F481BC600DD483A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RESERVATIONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBM.RESERVATIONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RESERVATION;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1A52531F481BC600DD483A /* Build configuration list for PBXProject "RESERVATION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A527E1F481BC600DD483A /* Debug */,
+				AB1A527F1F481BC600DD483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1A52801F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A52811F481BC600DD483A /* Debug */,
+				AB1A52821F481BC600DD483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1A52831F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATIONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A52841F481BC600DD483A /* Debug */,
+				AB1A52851F481BC600DD483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1A52861F481BC600DD483A /* Build configuration list for PBXNativeTarget "RESERVATIONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A52871F481BC600DD483A /* Debug */,
+				AB1A52881F481BC600DD483A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1A52501F481BC600DD483A /* Project object */;
+}

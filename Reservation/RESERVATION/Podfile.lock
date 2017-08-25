@@ -1,0 +1,25 @@
+PODS:
+  - ionicons (1.0)
+  - IoniconsSwift (2.1.4)
+
+DEPENDENCIES:
+  - ionicons (= 1.0)
+  - IoniconsSwift (from `http://github.com/tidwall/IoniconsSwift.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  IoniconsSwift:
+    :branch: master
+    :git: http://github.com/tidwall/IoniconsSwift.git
+
+CHECKOUT OPTIONS:
+  IoniconsSwift:
+    :commit: 6189f2c363b7694b89a1efea7bf29f967cb8b464
+    :git: http://github.com/tidwall/IoniconsSwift.git
+
+SPEC CHECKSUMS:
+  ionicons: ccea278ad864c03985270d7df24f2fa3c7a39520
+  IoniconsSwift: a9034803dfe59ec48a73c95b812c67afdfa3ed08
+
+PODFILE CHECKSUM: cbeff7fe6d1e7a28a027fa03e67af453eda945aa
+
+COCOAPODS: 1.3.1
